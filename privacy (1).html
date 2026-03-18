@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung / Privacy Policy — Clubstrafen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FAFAF8;--card:#fff;--text:#1a1a1a;--sub:#6b6b68;--hint:#9c9a92;--border:rgba(0,0,0,0.08);--blue:#185FA5;--blue-bg:#E6F1FB}
+@media(prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--text:#e8e6de;--sub:#9c9a92;--hint:#6b6b68;--border:rgba(255,255,255,0.08);--blue:#85B7EB;--blue-bg:#0a2a4a}}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:640px;margin:0 auto;padding:60px 24px 48px}
+.back{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:var(--hint);margin-bottom:32px}
+.back:hover{color:var(--text);text-decoration:none}
+h1{font-size:28px;font-weight:700;letter-spacing:-0.3px;margin-bottom:8px}
+.date{font-size:13px;color:var(--hint);margin-bottom:32px}
+.lang-switch{display:inline-flex;gap:4px;margin-bottom:32px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:3px}
+.lang-switch button{padding:6px 16px;border-radius:8px;border:none;font-size:13px;font-weight:500;cursor:pointer;background:transparent;color:var(--sub);font-family:inherit;transition:all .2s}
+.lang-switch button.active{background:var(--blue-bg);color:var(--blue)}
+h2{font-size:18px;font-weight:600;margin:32px 0 12px}
+h3{font-size:15px;font-weight:600;margin:24px 0 8px}
+p,li{font-size:14px;color:var(--sub);margin-bottom:12px}
+ul{padding-left:20px}
+li{margin-bottom:6px}
+.section{display:none}
+.section.active{display:block}
+footer{text-align:center;padding:32px 24px;font-size:12px;color:var(--hint)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <a href="index.html" class="back">&larr; Zurück / Back</a>
+
+  <h1>Datenschutzerklärung / Privacy Policy</h1>
+  <p class="date">Zuletzt aktualisiert / Last updated: 18. März 2026</p>
+
+  <div class="lang-switch">
+    <button class="active" onclick="switchLang('de')">Deutsch</button>
+    <button onclick="switchLang('en')">English</button>
+  </div>
+
+  <!-- DEUTSCH -->
+  <div class="section active" id="de">
+    <h2>1. Verantwortlicher</h2>
+    <p>Tobias Krenn<br>E-Mail: <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a></p>
+
+    <h2>2. Welche Daten wir erheben</h2>
+
+    <h3>2.1 Account-Daten</h3>
+    <p>Bei der Registrierung speichern wir deine E-Mail-Adresse und, falls du Apple Sign-In verwendest, eine von Apple generierte eindeutige Kennung. Wir speichern kein Passwort — die Authentifizierung erfolgt über Firebase Authentication.</p>
+
+    <h3>2.2 Vereinsdaten</h3>
+    <p>Du erstellst Vereine, Spieler und Strafen in der App. Diese Daten umfassen Vereinsnamen, Spielernamen, Trikotnummern, Strafenbezeichnungen, Beträge und Zahlungsstatus. Alle Daten werden in Google Cloud Firestore gespeichert.</p>
+
+    <h3>2.3 Zahlungsdaten</h3>
+    <p>Abonnements werden über Apple In-App Purchases und RevenueCat abgewickelt. Wir haben keinen Zugriff auf deine Kreditkarten- oder Zahlungsdaten. Apple und RevenueCat verarbeiten diese Daten gemäß ihren eigenen Datenschutzrichtlinien.</p>
+
+    <h3>2.4 Nutzungsdaten</h3>
+    <p>Wir erheben keine Analysedaten, Tracking-Daten oder Standortdaten. Wir verwenden keine Werbe-SDKs und keine Tracking-Tools von Drittanbietern.</p>
+
+    <h2>3. Warum wir Daten verarbeiten</h2>
+    <p>Wir verarbeiten deine Daten ausschließlich, um dir die Funktionen der App bereitzustellen — insbesondere die Verwaltung von Vereinsstrafen, Spielern und Zahlungen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).</p>
+
+    <h2>4. Datenweitergabe</h2>
+    <p>Wir geben deine Daten nicht an Dritte weiter, außer an folgende Dienste, die für den Betrieb der App notwendig sind:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — Authentifizierung und Datenbankspeicherung</li>
+      <li><strong>RevenueCat</strong> — Verwaltung von In-App Abonnements</li>
+      <li><strong>Apple</strong> — Zahlungsabwicklung und Apple Sign-In</li>
+    </ul>
+    <p>Diese Dienste verarbeiten Daten gemäß ihren eigenen Datenschutzrichtlinien und den geltenden europäischen Datenschutzvorschriften.</p>
+
+    <h2>5. Datenspeicherung und Löschung</h2>
+    <p>Deine Daten werden gespeichert, solange du ein aktives Konto hast. Du kannst dein Konto und alle zugehörigen Daten jederzeit in der App unter Mehr → Account löschen unwiderruflich löschen. Nach Löschung werden alle deine Daten innerhalb von 30 Tagen aus unseren Systemen entfernt.</p>
+
+    <h2>6. Deine Rechte</h2>
+    <p>Du hast gemäß DSGVO folgende Rechte:</p>
+    <ul>
+      <li>Auskunft über deine gespeicherten Daten</li>
+      <li>Berichtigung unrichtiger Daten</li>
+      <li>Löschung deiner Daten</li>
+      <li>Einschränkung der Verarbeitung</li>
+      <li>Datenübertragbarkeit</li>
+      <li>Widerspruch gegen die Verarbeitung</li>
+    </ul>
+    <p>Kontaktiere uns unter <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a>, um deine Rechte auszuüben.</p>
+
+    <h2>7. Sicherheit</h2>
+    <p>Alle Daten werden verschlüsselt übertragen (TLS/SSL) und in Googles Cloud-Infrastruktur mit Standort in der EU gespeichert. Der Zugriff auf deine Vereinsdaten ist auf dein authentifiziertes Konto beschränkt.</p>
+
+    <h2>8. Kinder</h2>
+    <p>Clubstrafen richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine Daten von Kindern unter 16 Jahren.</p>
+
+    <h2>9. Änderungen</h2>
+    <p>Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Bei wesentlichen Änderungen informieren wir dich über die App oder per E-Mail.</p>
+
+    <h2>10. Kontakt</h2>
+    <p>Bei Fragen zum Datenschutz erreichst du uns unter:<br>
+    <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a></p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="section" id="en">
+    <h2>1. Data controller</h2>
+    <p>Tobias Krenn<br>Email: <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a></p>
+
+    <h2>2. What data we collect</h2>
+
+    <h3>2.1 Account data</h3>
+    <p>When you register, we store your email address and, if you use Apple Sign-In, a unique identifier generated by Apple. We do not store your password — authentication is handled by Firebase Authentication.</p>
+
+    <h3>2.2 Club data</h3>
+    <p>You create clubs, players, and fines within the app. This data includes club names, player names, jersey numbers, fine descriptions, amounts, and payment status. All data is stored in Google Cloud Firestore.</p>
+
+    <h3>2.3 Payment data</h3>
+    <p>Subscriptions are handled through Apple In-App Purchases and RevenueCat. We do not have access to your credit card or payment details. Apple and RevenueCat process this data according to their own privacy policies.</p>
+
+    <h3>2.4 Usage data</h3>
+    <p>We do not collect any analytics data, tracking data, or location data. We do not use advertising SDKs or third-party tracking tools.</p>
+
+    <h2>3. Why we process data</h2>
+    <p>We process your data solely to provide you with the app's features — specifically the management of club fines, players, and payments. The legal basis is Art. 6(1)(b) GDPR (performance of a contract).</p>
+
+    <h2>4. Data sharing</h2>
+    <p>We do not share your data with third parties, except for the following services that are necessary for operating the app:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — authentication and database storage</li>
+      <li><strong>RevenueCat</strong> — in-app subscription management</li>
+      <li><strong>Apple</strong> — payment processing and Apple Sign-In</li>
+    </ul>
+    <p>These services process data according to their own privacy policies and applicable European data protection regulations.</p>
+
+    <h2>5. Data retention and deletion</h2>
+    <p>Your data is stored as long as you have an active account. You can permanently delete your account and all associated data at any time within the app under More → Delete Account. After deletion, all your data will be removed from our systems within 30 days.</p>
+
+    <h2>6. Your rights</h2>
+    <p>Under GDPR, you have the following rights:</p>
+    <ul>
+      <li>Access to your stored data</li>
+      <li>Rectification of inaccurate data</li>
+      <li>Erasure of your data</li>
+      <li>Restriction of processing</li>
+      <li>Data portability</li>
+      <li>Objection to processing</li>
+    </ul>
+    <p>Contact us at <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a> to exercise your rights.</p>
+
+    <h2>7. Security</h2>
+    <p>All data is transmitted encrypted (TLS/SSL) and stored in Google's cloud infrastructure located in the EU. Access to your club data is restricted to your authenticated account.</p>
+
+    <h2>8. Children</h2>
+    <p>Clubstrafen is not directed at children under 16. We do not knowingly collect data from children under 16.</p>
+
+    <h2>9. Changes</h2>
+    <p>We may update this privacy policy from time to time. We will notify you of material changes through the app or by email.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about privacy, contact us at:<br>
+    <a href="mailto:tobiaskrenn06@gmail.com">tobiaskrenn06@gmail.com</a></p>
+  </div>
+</div>
+
+<footer>&copy; 2026 Clubstrafen. Alle Rechte vorbehalten.</footer>
+
+<script>
+function switchLang(lang){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  document.querySelectorAll('.lang-switch button').forEach(b=>b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
